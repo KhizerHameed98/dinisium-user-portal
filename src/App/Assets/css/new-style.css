@@ -1,0 +1,450 @@
+.MuiPagination-ul {
+  justify-content: center;
+}
+.text-dr-blu {
+  color: #006dc2;
+}
+.text-dr-pink {
+  color: #eb547c;
+}
+.text-dr-green {
+  color: #33cc99 !important;
+}
+
+.bg-semi-black {
+  background-color: #313131;
+}
+.bg-lit-gr {
+  background-color: #e1effa;
+}
+.bg-green {
+  background-color: #33cc99;
+}
+
+.font-24 {
+  font-size: 24px;
+}
+.font-30 {
+  font-size: 30px !important;
+}
+.font-18 {
+  font-size: 18px;
+}
+.font-14 {
+  font-size: 14px;
+}
+.font-12 {
+  font-size: 12px;
+}
+
+.fn-500 {
+  font-weight: 500;
+}
+.fn-600 {
+  font-weight: 600;
+}
+.fn-700 {
+  font-weight: 700;
+}
+.fn-400 {
+  font-weight: 400;
+}
+.fn-300 {
+  font-weight: 300;
+}
+::placeholder {
+  font-size: 12px;
+}
+
+/* .sec-heading
+{
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+} */
+
+.view-mor-gr-link {
+  background-color: #b2dbbf;
+  padding: 5px 15px;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 12px;
+  color: #000;
+}
+.view-mor-gr-link:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+.top-bar-assest li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+  color: #313131;
+  font-size: 14px;
+}
+.top-bar-assest li span,
+.top-bar-assest li a {
+  border: 1px solid #313131;
+  border-radius: 5px;
+  padding: 5px 20px;
+}
+.btn-green {
+  background-color: #33cc99;
+  border-color: #33cc99;
+}
+.btn-green:hover {
+  background-color: #4ddeae;
+  border-color: #33cc99;
+}
+a,
+li,
+p,
+div {
+  font-size: 12px;
+}
+button {
+  font-size: 12px !important;
+}
+body {
+  background-color: #f9f9f9 !important;
+  font-family: "Montserrat", sans-serif !important;
+}
+table.dataTable {
+  margin-top: 0 !important;
+}
+.main-logo {
+  max-width: 150px;
+  width: 100%;
+}
+.dashboard-cd-amot {
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+.dashboard-cd-blc {
+  font-size: 14px;
+}
+.dashboard-cd-icon {
+  font-size: 50px;
+}
+.bg-cr-1 {
+  background-color: #0394fd !important;
+}
+.bg-cr-2 {
+  background-color: #006dc2 !important;
+}
+.bg-cr-3 {
+  background-color: #b2dabf !important;
+}
+.dash-sub-list-heading h4 {
+  font-size: 18px;
+  display: inline-block;
+}
+.sub-lable {
+  font-size: 13px;
+  padding: 3px 15px;
+  border-radius: 30px;
+  color: #ffffff;
+}
+.subs-main-crd {
+  border-bottom: 1px solid #d8d8d8;
+  padding: 1.25rem;
+}
+.subs-main-crd p {
+  font-size: 13px;
+  color: #424242;
+  margin-bottom: 5px;
+}
+.sub-progress {
+  width: 150px;
+  float: right;
+}
+.sub-progress .progress-bar {
+  background-color: #4d95fd;
+}
+.sub-progress .progress {
+  background-color: #dbdcde;
+}
+.subs-main-scroll {
+  height: 240px;
+  overflow-y: auto;
+}
+.subs-main-scroll::-webkit-scrollbar {
+  width: 4px;
+  box-shadow: none;
+  border-radius: 10px;
+}
+.subs-main-scroll::-webkit-scrollbar-thumb {
+  background: #006dc2;
+  box-shadow: none;
+  border-radius: 10px;
+  outline: none;
+}
+.subs-main-scroll::-webkit-scrollbar-track {
+  background: #ccc;
+  box-shadow: none;
+  border-radius: 10px;
+}
+.progressbar-js-circle {
+  position: relative;
+  width: 42px;
+  display: inline-block;
+  float: right;
+}
+.on-going-pro-date {
+  display: inline-block;
+}
+.pro-date {
+  border: 1px solid #d2d2d2;
+  padding: 3px 8px;
+  border-radius: 5px;
+  font-size: 11px;
+  color: #376dc2 !important;
+}
+.pro-heading-b {
+  position: relative;
+  padding-left: 10px;
+}
+.pro-heading-b::before {
+  position: absolute;
+  left: -5px;
+  top: 5px;
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #72c0b2;
+  border-radius: 50%;
+}
+.sub-dash-text {
+  font-size: 18px;
+}
+.dls-btn {
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  float: right;
+}
+.dls-btn:hover {
+  text-decoration: none;
+}
+.fix-hgt-scrol {
+  height: 200px;
+  overflow-y: auto;
+}
+
+/* scrool bar style */
+.srl-bar::-webkit-scrollbar {
+  width: 4px;
+  box-shadow: none;
+  border-radius: 10px;
+}
+.srl-bar::-webkit-scrollbar-thumb {
+  background: #006dc2;
+  box-shadow: none;
+  border-radius: 10px;
+  outline: none;
+}
+.srl-bar::-webkit-scrollbar-track {
+  background: #ccc;
+  box-shadow: none;
+  border-radius: 10px;
+}
+.exp-mr-link {
+  font-size: 14px;
+  color: #f6c700;
+  float: right;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.exp-mr-link:hover {
+  color: #dabe45;
+}
+
+.progressbar-js-circle-2 {
+  position: relative;
+  width: 100px;
+  display: inline-block;
+}
+.bd-example-modal-sm .modal-sm-cu {
+  max-width: 350px;
+}
+.dataTables_info,
+.dataTables_paginate {
+  padding: 15px;
+}
+.tbl-small-heading {
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.upload-input-sty {
+  padding: 20px;
+  border: 1px solid #d2d2d2;
+  border-radius: 5px;
+}
+.upload-input-sty input {
+  display: none;
+}
+.upload-input-sty label {
+  margin-bottom: 0;
+  color: red;
+  font-weight: 500;
+  cursor: pointer;
+}
+.upload-input-sty label .fa-plus-circle {
+  color: #0391f8;
+  font-size: 14px;
+  margin-left: 5px;
+}
+.upload-icon {
+  font-size: 50px;
+  color: #c3c3c3;
+  margin-bottom: 0;
+}
+
+/* login screens  */
+
+.login-pge .form {
+  width: 100%;
+  padding-top: 36px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 36px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.login-pge .h3 {
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-bottom: 20px;
+  color: #007bff;
+  margin-top: 10px;
+}
+.login-pge .img2 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.login-pge .form-group {
+  display: inherit;
+}
+.login-pge .form-group input {
+  width: 80%;
+}
+.login-pge .form-group input:first-child {
+  margin-right: 20px;
+}
+
+.login-pge .form-wrapper {
+  position: relative;
+}
+.login-pge .form-wrapper i {
+  position: absolute;
+  bottom: 9px;
+  right: 0;
+}
+
+.login-pge .form-control {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  display: block;
+  width: 100%;
+  height: 30px;
+  padding: 0;
+  margin-bottom: 25px;
+}
+.login-pge .form-control::-webkit-input-placeholder {
+  font-size: 12px;
+  color: #333;
+  font-family: "Montserrat", sans-serif !important;
+}
+.login-pge .inline {
+  display: inline;
+}
+.login-pge .signin {
+  font-size: 13px;
+  padding-left: 4px;
+  margin-bottom: 30px;
+}
+
+.login-pge .forget {
+  font-size: 13px;
+  margin-bottom: 30px;
+}
+
+.login-pge .logo {
+  height: 100vh;
+  position: relative;
+}
+.login-pge .ver-code i {
+  font-size: 20px;
+}
+/* ............................. */
+.pu-rel {
+  position: relative;
+}
+.profile-detail li {
+  list-style: none;
+  border-bottom: 1px solid #efefef;
+}
+.profile-detail li span {
+  padding: 10px 0;
+}
+.profile-detail li span:first-child {
+  width: 38%;
+  display: inline-flex;
+}
+.profile-detail li span:nth-child(2) {
+  width: 60%;
+  font-weight: 600;
+  display: inline-flex;
+}
+.profile-img {
+  position: absolute;
+  left: -65px;
+  top: 70px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+/* scrool bar style */
+.sb-sidenav-menu::-webkit-scrollbar {
+  width: 4px;
+  box-shadow: none;
+  border-radius: 10px;
+}
+.sb-sidenav-menu::-webkit-scrollbar-thumb {
+  background: #006dc2;
+  box-shadow: none;
+  border-radius: 10px;
+  outline: none;
+}
+.sb-sidenav-menu::-webkit-scrollbar-track {
+  background: #ccc;
+  box-shadow: none;
+  border-radius: 10px;
+}
+
+.custom-select-currency {
+  height: 3.1rem !important;
+}
+
+.color-green {
+  color: green;
+}
+.color-red {
+  color: red;
+}
+.width-max-content {
+  width: max-content;
+}
+.recharts-legend-item {
+  margin-right: 20px !important;
+}
